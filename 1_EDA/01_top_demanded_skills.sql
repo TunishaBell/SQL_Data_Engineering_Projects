@@ -4,7 +4,7 @@ Question: What are the most in-demand skills for data engineers in the United St
 Purpose: Identify the top 10 skills with the highest demand that are remote in the U.S job market
  */
 
- 
+
 SELECT 
   sd.skills,
   COUNT(jpf.job_id) AS demand_count
@@ -19,22 +19,3 @@ GROUP BY
 ORDER BY 
   demand_count DESC
 LIMIT 10;
-/*
- 
- ┌────────────┬──────────────┐
- │   skills   │ demand_count │
- │  varchar   │    int64     │
- ├────────────┼──────────────┤
- │ sql        │         9484 │
- │ python     │         8918 │
- │ aws        │         5750 │
- │ azure      │         4811 │
- │ spark      │         4023 │
- │ snowflake  │         3335 │
- │ databricks │         2885 │
- │ java       │         2648 │
- │ airflow    │         2340 │
- │ kafka      │         2210 │
- └────────────┴──────────────┘
- 10 rows         2 columns  
- */
