@@ -11,13 +11,13 @@ A SQL project analyzing the data engineer job market using real world job postin
  - ✅ Analytics: Applied aggregations, filtering, and sorting to find top skills by demand, salary, and overall value  
  - ✅ Outcomes: Delivered actionable insights on SQL/Python dominance, cloud trends, and salary patterns  
 
-If you only have a minute, review these:  
+ If you only have a minute, review these:  
 
-1. [`01_top_demanded_skills.sql`](./01_top_demanded_skills.sql) - demand analysis with multi-table joins
+ 1. [`01_top_demanded_skills.sql`](./01_top_demanded_skills.sql) - demand analysis with multi-table joins
 
-2. [`02_highest_paying_skills.sql`](./02_highest_paying_skills.sql) - salary analysis with aggregations
+ 2. [`02_highest_paying_skills.sql`](./02_highest_paying_skills.sql) - salary analysis with aggregations
 
-3. [`03_most_optimal_skills.sql`](./03_most_optimal_skills.sql) - combined demand/salary optimization query
+ 3. [`03_most_optimal_skills.sql`](./03_most_optimal_skills.sql) - combined demand/salary optimization query
 
 ## Problem & Context  
 
@@ -27,9 +27,9 @@ Job market analysts need to answer questions like:
  - 💰 Highest paid: Which skills command the highest salaries?  
  - ⚖️ Best trade-off: What is the optimal skill set balancing demand and compensation?  
 
-This project analyzes a data warehouse built using a star schema design. The warehouse structure consists of:  
+ This project analyzes a data warehouse built using a star schema design. The warehouse structure consists of:  
 
-![Data Warehouse](../Images/1_2_Data_Warehouse.png) 
+ ![Data Warehouse](../Images/1_2_Data_Warehouse.png) 
 
  - **Fact Table:**  `job_postings_fact` - Central table containing job posting details (job titles, locations, salaries, dates, etc.)  
  - **Dimension Tables:**  
@@ -37,7 +37,7 @@ This project analyzes a data warehouse built using a star schema design. The war
     - `skills_dim` - Skills catalog with skill names and types  
  - **Bridge Table:** `skills_job_dim` - Resolves the many-to-many relationship between job postings and skills  
 
-By querying across these interconnected tables, I extracted insights about skill demand, salary patterns, and optimal skill combinations for data engineering roles.
+ By querying across these interconnected tables, I extracted insights about skill demand, salary patterns, and optimal skill combinations for data engineering roles.
 
 ## Tech Stack  
 
@@ -49,10 +49,10 @@ By querying across these interconnected tables, I extracted insights about skill
 
 ## Analysis Overview
 
-**Query Structure**  
-1. **[Top Demanded Skills](01_top_demanded_skills.sql)** – Identifies the 10 most in-demand skills for remote data engineer positions
-2. **[Highest Paying Skills](./02_highest_paying_skills.sql)** – Analyzes the 25 highest-paying skills with salary and demand metrics
-3. **[Most Optimal Skills](./03_most_optimal_skills.sql)** – Calculates an optimal score using natural log of demand combined with median salary to identify the most valuable skills to learn  
+ **Query Structure**  
+ 1. **[Top Demanded Skills](01_top_demanded_skills.sql)** – Identifies the 10 most in-demand skills for remote data engineer positions
+ 2. **[Highest Paying Skills](./02_highest_paying_skills.sql)** – Analyzes the 25 highest-paying skills with salary and demand metrics
+ 3. **[Most Optimal Skills](./03_most_optimal_skills.sql)** – Calculates an optimal score using natural log of demand combined with median salary to identify the most valuable skills to learn  
 
 **Key Insights**
  - 🧠 Core languages: SQL appears in ~9,484 postings while Python appears in ~8,918 job postings, making them the most demanded skills
@@ -70,7 +70,7 @@ By querying across these interconnected tables, I extracted insights about skill
 
  ![Top Demanded Skills Results](../Images/Top_Demanded_Skills_Results.png)  
  
-**Top Paying Skills** 
+**Highest Paying Skills** 
  - Terraform is the top-paying skill in the analysis, showing that infrastructure-as-code knowledge is highly valued.  
  - Airflow and Kubernetes combine strong salaries with solid demand, making them especially relevant for modern data engineering roles.
  - Kafka also stands out, reinforcing the value of streaming and distributed systems experience.
