@@ -12,5 +12,5 @@ The following Hands-on projects are a collection of SQL projects that I have wor
 
 SQL-driven analysis of data engineer job market trends using advanced querying techniques.
 
-Skills: Complex joins, aggregations, analytical functions, data quality validation
+**Skills:** Complex joins, aggregations, analytical functions, data quality validation
 
