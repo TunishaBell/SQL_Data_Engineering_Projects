@@ -51,7 +51,7 @@ By querying across these interconnected tables, I extracted insights about skill
 
 **Query Structure**  
 1. **[Top Demanded Skills](01_top_demanded_skills.sql)** – Identifies the 10 most in-demand skills for remote data engineer positions
-2. **[Higest Paying Skills](./02_highest_paying_skills.sql)** – Analyzes the 25 highest-paying skills with salary and demand metrics
+2. **[Highest Paying Skills](./02_highest_paying_skills.sql)** – Analyzes the 25 highest-paying skills with salary and demand metrics
 3. **[Most Optimal Skills](./03_most_optimal_skills.sql)** – Calculates an optimal score using natural log of demand combined with median salary to identify the most valuable skills to learn  
 
 **Key Insights**
@@ -77,7 +77,7 @@ By querying across these interconnected tables, I extracted insights about skill
  - Several of the highest-paying skills are more specialized tools rather than the most common everyday skills.
  - The salary leaders suggest that employers pay a premium for engineers who can support infrastructure, orchestration, and production-ready systems.
 
- ![Highest Paying Skills Results](../Images/Top_Paying_Skill_Results.png)
+ ![Highest Paying Skills Results](../Images/Highest_Paying_Skill_Results.png)
 
 **Most Optimal Skills** 
  - Python and SQL rank near the top because they balance strong demand with solid compensation.
