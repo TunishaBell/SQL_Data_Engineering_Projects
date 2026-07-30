@@ -15,7 +15,7 @@ If you only have a minute, review these:
 
 1. [`01_top_demanded_skills.sql`](./01_top_demanded_skills.sql) - demand analysis with multi-table joins
 
-2. [`02_top_paying_skills.sql`](./02_highest_paying_skills.sql) - salary analysis with aggregations
+2. [`02_highest_paying_skills.sql`](./02_highest_paying_skills.sql) - salary analysis with aggregations
 
 3. [`03_most_optimal_skills.sql`](./03_most_optimal_skills.sql) - combined demand/salary optimization query
 
@@ -51,13 +51,13 @@ By querying across these interconnected tables, I extracted insights about skill
 
 **Query Structure**  
 1. **[Top Demanded Skills](01_top_demanded_skills.sql)** – Identifies the 10 most in-demand skills for remote data engineer positions
-2. **[Top Paying Skills](./02_highest_paying_skills.sql)** – Analyzes the 25 highest-paying skills with salary and demand metrics
+2. **[Higest Paying Skills](./02_highest_paying_skills.sql)** – Analyzes the 25 highest-paying skills with salary and demand metrics
 3. **[Most Optimal Skills](./03_most_optimal_skills.sql)** – Calculates an optimal score using natural log of demand combined with median salary to identify the most valuable skills to learn  
 
 **Key Insights**
  - 🧠 Core languages: SQL appears in ~9,484 postings while Python appears in ~8,918 job postings, making them the most demanded skills
- - ☁️ Cloud platforms: AWS and Azure are critical for modern data engineering roles-
- - 🧱 Infra & tooling: Terraform and Kubernetes are associated with premium salaries
+ - ☁️ Cloud platforms: AWS and Azure are critical for modern data engineering roles
+ - 🧱 Infrastructure & tooling: Terraform and Kubernetes are associated with premium salaries
  - 🔥 Big data tools: Apache Spark shows strong demand with competitive compensation
 
 ## Key Findings
@@ -77,7 +77,7 @@ By querying across these interconnected tables, I extracted insights about skill
  - Several of the highest-paying skills are more specialized tools rather than the most common everyday skills.
  - The salary leaders suggest that employers pay a premium for engineers who can support infrastructure, orchestration, and production-ready systems.
 
- ![Top Paying Skills Results](../Images/Top_Paying_Skill_Results.png)
+ ![Highest Paying Skills Results](../Images/Top_Paying_Skill_Results.png)
 
 **Most Optimal Skills** 
  - Python and SQL rank near the top because they balance strong demand with solid compensation.
