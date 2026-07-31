@@ -1,6 +1,6 @@
 # Exploratory Data Analysis w/ SQL: Job Market Analytics
 
-![Project 1 Overview](../Images/1_1_Project1_EDA.png)
+![Project 1 Overview](../Images/01_1_Project1_EDA.png)
 
 A SQL project analyzing the data engineer job market using real world job posting data. It demonstrates my ability to **write production-quality analytical SQL, design efficient queries, and turn business questions into data-driven insights.**
 
@@ -29,7 +29,7 @@ Job market analysis needs to answer questions like:
 
  This project analyzes a data warehouse built using a star schema design. The warehouse structure consists of:  
 
- ![Data Warehouse](../Images/1_2_Data_Warehouse.png) 
+ ![Data Warehouse](../Images/01_2_Data_Warehouse.png) 
 
  - **Fact Table:**  `job_postings_fact` - Central table containing job posting details (job titles, locations, salaries, dates, etc.).  
  - **Dimension Tables:**  
@@ -68,7 +68,7 @@ Job market analysis needs to answer questions like:
  - Spark, Snowflake, and Databricks reinforce demand for modern data processing and analytics platforms.
  - Airflow and Kafka suggest that orchestration and streaming are important supporting skills.  
 
- ![Top Demanded Skills Results](../Images/Top_Demanded_Skills_Results.png)  
+ ![Top Demanded Skills Results](../Images/01_Top_Demanded_Skills_Results.png)  
  
 **Highest Paying Skills** 
  - Terraform is the top-paying skill in the analysis, showing that infrastructure-as-code knowledge is highly valued.  
@@ -77,7 +77,7 @@ Job market analysis needs to answer questions like:
  - Several of the highest-paying skills are more specialized tools rather than the most common everyday skills.
  - The salary leaders suggest that employers pay a premium for engineers who can support infrastructure, orchestration, and production-ready systems.
 
- ![Highest Paying Skills Results](../Images/Highest_Paying_Skill_Results.png)
+ ![Highest Paying Skills Results](../Images/02_Highest_Paying_Skill_Results.png)
 
 **Most Optimal Skills** 
  - Python and SQL rank near the top of the optimal skills because they balance strong demand with solid compensation.
@@ -86,7 +86,7 @@ Job market analysis needs to answer questions like:
  - The optimal skills list highlights tools that are both marketable and realistic to learn for long-term career growth.
  - This section shows that the best career choices are not always the highest-paying niche tools, but the skills that combine relevance and opportunity.
 
- ![Most Optimal Skills Results](../Images/Most_Optimal_Skills_Results.png)
+ ![Most Optimal Skills Results](../Images/03_Most_Optimal_Skills_Results.png)
 
 ## SQL Skills Demonstrated  
 
