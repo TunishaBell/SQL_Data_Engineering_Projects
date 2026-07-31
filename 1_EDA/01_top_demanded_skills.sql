@@ -2,7 +2,7 @@
 Question: What are the most in-demand skills for data engineers in the United States?
 
 Purpose: Identify the top 10 skills with the highest demand that are remote in the U.S job market
- */
+*/
 
 SELECT 
   sd.skills,

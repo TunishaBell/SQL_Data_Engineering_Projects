@@ -2,7 +2,7 @@
 Question: What are the highest-paying skills for data engineers in the United States?
 
 Purpose: Identifies which skills command the highest compensation while also showing how common those skills are, providing a more complete picture for skill development priorities
- */
+*/
 
 SELECT 
   sd.skills,
